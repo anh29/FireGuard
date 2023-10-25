@@ -1,0 +1,19 @@
+.banner {
+  height: 400px;
+  width: 1000px;
+  border-radius: 5px;
+}
+/* styles.css */
+.contain {
+  position: relative;
+  text-align: -webkit-center;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #e5f9ffd1;
+}
