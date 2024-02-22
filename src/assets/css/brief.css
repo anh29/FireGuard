@@ -1,0 +1,168 @@
+/* General styles for links */
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Main container */
+.bd {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+/* Container for product cards */
+.bd .wrapper {
+  max-width: 1100px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background: linear-gradient(#fcfaff, #8a9bff);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bd .wrapper i {
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  bottom: -110px;
+  font-size: 1.25rem;
+  transform: translateY(-50%);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#left {
+  left: 12%;
+}
+
+#right {
+  right: 12%;
+}
+
+#left1 {
+  left: 12%;
+  top: 176vh;
+}
+
+#right1 {
+  right: 12%;
+  top: 176vh;
+}
+.bd .wrapper i:first-child {
+  left: 40px;
+}
+
+.bd .wrapper i:last-child {
+  right: 40px;
+}
+
+.bd .wrapper .carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.bd .carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.bd .carousel :where(.card, .img) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bd .carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+
+.bd .carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+
+.bd .carousel .card {
+  list-style: none;
+  background: #fff;
+  border-radius: 8px;
+  padding-bottom: 15px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bd .title {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.bd .card .img {
+  background: #8b53ff;
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+}
+
+.bd .card .img img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+.bd .decp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bd .decp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bd .card h2 {
+  font-weight: 500;
+  font-size: 1.56rem;
+}
+
+.bd .card span {
+  color: #6a6d78;
+  font-size: 1.31rem;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}

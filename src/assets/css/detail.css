@@ -1,0 +1,224 @@
+/* Font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+a:hover {
+  cursor: pointer;
+}
+/* Main container */
+.dp.card-wrapper {
+  margin: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(#fcfaff, #8a9bff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Product Image */
+.dp .img-area {
+  width: 100%;
+  display: block;
+}
+
+/* Product Content */
+.dp .product-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.dp .product-title {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #12263a;
+  margin: 1rem 0;
+  position: relative;
+}
+
+.dp .product-title::after {
+  content: "";
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  height: 4px;
+  width: 50%;
+  background: #12263a;
+}
+
+.dp .product-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  background: #256eff;
+  color: #fff;
+  padding: 5px 15px;
+  transition: background 0.5s ease;
+}
+
+.dp .product-link:hover {
+  background: #1e4fd6;
+}
+
+.dp .product-rating {
+  color: #ffc107;
+}
+
+.dp .product-rating span {
+  font-weight: 600;
+  color: #252525;
+}
+
+.dp .product-price {
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.dp .product-price span {
+  font-weight: 400;
+}
+
+.dp .last-price span {
+  color: #f64749;
+  text-decoration: line-through;
+}
+
+.dp .new-price span {
+  color: #256eff;
+}
+
+.dp .product-detail {
+  background-color: #f6fbff;
+  color: black;
+  border-radius: 8px;
+}
+
+.dp .product-detail h2 {
+  text-transform: capitalize;
+  color: #12263a;
+  padding-bottom: 0.6rem;
+  padding-top: 0.6rem;
+  font-weight: 700;
+}
+
+.dp .product-detail p {
+  font-size: 0.9rem;
+  padding: 0.3rem;
+  opacity: 0.8;
+}
+
+.dp .product-detail ul {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.dp .product-detail ul li {
+  margin: 0;
+  list-style: none;
+  background: url("shoes_images/checked.png") left center no-repeat;
+  background-size: 18px;
+  padding-left: 1.7rem;
+  margin: 0.4rem 0;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.dp .product-detail ul li span {
+  font-weight: 400;
+}
+
+/* Purchase Info */
+.dp .purchase-info {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dp .purchase-info input,
+.dp .purchase-info .btn {
+  border: 1.5px solid #ddd;
+  border-radius: 25px;
+  text-align: center;
+  padding: 5px 15px;
+  outline: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.dp .purchase-info input {
+  width: 30%;
+}
+
+.dp .purchase-info .btn {
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.dp .purchase-info .btn:first-of-type {
+  background: #256eff;
+}
+
+.dp .purchase-info .btn:last-of-type {
+  background: #f64749;
+}
+
+.dp .purchase-info .btn:hover {
+  opacity: 0.9;
+}
+
+/* Social Links */
+.dp .social-links {
+  display: flex;
+  align-items: center;
+}
+
+.dp .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  background: #000;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin: 0 10px;
+  transition: background 0.5s ease;
+}
+
+.dp .social-links a:hover {
+  background: #1e4fd6;
+}
+
+/* Media Queries */
+@media screen and (min-width: 992px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+  }
+  .card-wrapper {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .product-content {
+    padding-top: 0;
+  }
+}

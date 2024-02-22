@@ -1,0 +1,51 @@
+.countdown-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b4efff;
+  color: #fc0000;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  width: 600px;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.countdown-item {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.countdown-value {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.countdown-label {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.7;
+}
+
+.status {
+  margin-top: 100px;
+}
+
+.stitle {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.scontain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scontain > img {
+  height: 220px;
+  width: 220px;
+  margin-right: 20px;
+}

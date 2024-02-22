@@ -1,4 +1,3 @@
-import React from "react";
 import banner from "../assets/img/banner.png";
 import "../assets/css/banner.css";
 

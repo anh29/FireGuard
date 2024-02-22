@@ -1,5 +1,11 @@
 [
   {
+    "id": 999,
+    "img": "bao-chay.jpg",
+    "name": "Thiết bị báo cháy",
+    "description": "Hệ thống bao gồm các cảm biến phát hiện cháy nổ ở vị trí hay xảy ra cháy nổ trên tàu như khoang máy và cabin kết hợp với thiết bị định vị GPS. Khi phát hiện sự thay đổi đột ngột, cảnh báo và phòng cháy tự động sẽ được kích hoạt và thông báo cho chủ tàu."
+  },
+  {
     "id": 1,
     "img": "binh-cuu-hoa.jpg",
     "name": "Bình cứu hỏa",
@@ -8,7 +14,7 @@
   {
     "id": 2,
     "img": "binh-chua-chay.jpg",
-    "name": "Bình chữa cháy xách tay",
+    "name": "Bình chữa cháy",
     "description": "Bình chữa cháy MFZ4 ABC 4KG thuộc loại xách tay, Bạn có thể nhanh chóng dập tắt đám cháy. Ở nhà, văn phòng, công ty và xưởng làm việc bạn phải trang bị để đề phòng và chữa cháy hiệu quả. Bình chữa cháy MFZ4 ABC 4KG có khối lượng bột là 04 kg, bình có thể chữa cháy các loại cháy chất lỏng, chất khí, không chữa cháy dạng rắn. \nBình bột chữa cháy 4kg (ABC) MFZL4\nThông số kỹ thuật\nThông số kỹ thuật:\nTrọng lượng toàn bình: 4 (+- 0.08)\nThời gian chữa cháy: 9s\nPhạm vi chữa cháy: 4M\nNhiệt độ hoạt động oC: 20-55\nÁp suất phun ( MPa): 1.2\nÁp suất kiểm tra (MPa): 2.5\nBảo hộ lao động chuyền hiền nơi mua hàng uy tín nhất miền bắc\nlà một trong những đơn vị lâu năm trong lĩnh vực bảo hộ lao động,chúng tôi luôn hướng tới lợi ích và sự hài lòng của quý khách hàng là trên hết\nhân hạnh được phục vụ quý khách hàng !"
   },
   {
@@ -16,5 +22,17 @@
     "img": "ung.png",
     "name": "Ủng chữa cháy",
     "description": "Ủng chữa cháy theo thông tư 48 BCA hàng đúng tiêu chuẩn\nĐặc điểm của ủng , giày chữa cháy theo quy định của thông tư 48:\na) Kiểu dáng: Theo mẫu số 04 ban hành kèm theo Thông tư.\nb) Cấu tạo, chất liệu: Ủng cao cổ, thân ủng đứng và đúc liền đế, chống thấm nước; mũi ủng tròn, có miếng lót kim loại bên trong bảo vệ mũi bàn chân; bên trong thân ủng có lớp vải chuyên dùng chống trượt, bám dính vào thành ủng; cổủng, mũi ủng, các gờ sau của ủng có gân và chỉ viền xung quanh; đế ủng đúc, dày 05 cm, có vân nổi hình răng cưa tăng độ ma sát. Ủng được làm bằng nhựa PVC hoặc cao su nhân tạo.\nc) Màu sắc: Thân ủng màu xám, đế màu đỏ."
+  },
+  {
+    "id": 4,
+    "img": "riu-pccc.jpg",
+    "name": "Rìu phá dỡ pccc",
+    "description": "Rìu phá dỡ pccc phòng cháy chữa cháy nặng 2kg chiều dài 90cm có đầu bọc cao su. (thông tư 150/2020 ngày 31/12/2020). Model: VINFIRE-RIU-01. Hãng sản xuất: VINFIRE. Cung cấp kèm theo giấy xuất xưởng. Cán gỗ: Sơn đỏ. Kích thước: 90cm dài * dài lưỡi 26cm * rộng lưỡi 9cm. Trọng lượng: 2.0kg. Lưỡi: Sơn đỏ 2/3, thép carbon. Có móc nhọn dùng để phá kính, phần đầu có lót cao su.. Chất liệu Thép cacbon cường độ cao được tôi luyện và đánh bóng, cán rìu bằng gỗ cứng dài khoảng 90cm,"
+  },
+  {
+    "id": 5,
+    "img": "ban-dau-bao-nhiet.jpg",
+    "name": "Đầu báo nhiệt",
+    "description": "Bán đầu báo nhiệt gia tăng Horing AHR-871 chính hãng nhập khẩu Đài Loan. Nhận lắp đặt các công trình báo cháy trên toàn quốc giá rẻ, bảo dưỡng, bảo trì định kì với đội ngũ nhân viên kỹ thuật chuyên môn cao. Thông số kỹ thuật của đầu báo nhiệt gia tăng Horing AHR-871. Model AHR-871. Loại : 2-dây 3-dây 4-dây. Tiếp điểm : N/A N/A 0.8A @30V DC. 0.4A @125V AC. Điện áp: 12 ~ 30V DC. Báo động : @24V DC 470Ω 40mA 40mA 35mA. Tiêu chuẩn : EN54. Nhiệt độ : 0°C ~ +55°C. Kích thước : 111mm(Dia.) x 45mm(H). Trọng lượng : 130g. Màu sắc : trắng"
   }
 ]
